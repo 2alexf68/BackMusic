@@ -9,7 +9,8 @@ import android.os.IBinder;
  * Created by 2alexf68 on 26/04/2018.
  */
 
-public class MusicService extends Service {
+public abstract class MusicService extends Service {
+
 
     class MusicServiceBinder extends Binder
     {

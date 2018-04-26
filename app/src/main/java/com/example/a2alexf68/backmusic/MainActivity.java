@@ -15,8 +15,5 @@ public class MainActivity extends AppCompatActivity  {
 
     Intent startIntent = new Intent(this, MusicService.class);
 
-    @Override
-    public ComponentName startService(Intent service) {
-        startService(startIntent);
-    }
+
 }
